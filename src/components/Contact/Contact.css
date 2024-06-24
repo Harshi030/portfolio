@@ -1,0 +1,221 @@
+.contact--container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact--container h1{
+  font-size: 50px;
+  color: #03045e;
+}
+
+.contact--container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+form input{
+  width: 800px;
+  height: 60px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 20px;
+}
+
+form textarea{
+  width: 800px;
+  height: 200px;
+  border-radius: 20px;
+  resize: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(193, 163, 98);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button:hover::before {
+  scale: 3;
+}
+
+.button:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.button:active {
+  scale: 1;
+}
+@media  screen and (max-width:1270px) {
+  .contact--container{
+    justify-content: center;
+    gap: 10px;
+  }
+  .contact--container h1{
+    font-size: 40px;
+  }
+  .contact--container form{
+    gap: 30px;
+  }
+  
+  form input{
+    width: 700px;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  form textarea{
+    width: 700px;
+    height: 180px;
+    font-size: 18px;
+    padding: 15px;
+  }
+  .button {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+
+@media  screen and (max-width:750px) {
+
+  .contact--container form{
+    gap: 25px;
+  }
+  
+  form input{
+    width: 600px;
+    height: 45px;
+    padding: 18px;
+    font-size: 15px;
+  }
+  
+  form textarea{
+    width: 600px;
+    height: 140px;
+    font-size: 15px;
+    padding: 18px;
+  }
+  .button {
+    font-size: 13px;
+    padding: 8px 22px;
+  }
+ 
+}
+
+@media  screen and (max-width:630px) {
+
+  .contact--container form{
+    gap: 20px;
+  }
+  
+  form input{
+    width: 500px;
+    height: 45px;
+    padding: 18px;
+    font-size: 12px;
+  }
+  
+  form textarea{
+    width: 500px;
+    height: 100px;
+    font-size: 12px;
+    padding: 18px;
+  }
+  .button {
+    font-size: 11px;
+    padding: 7px 21px;
+  }
+ 
+}
+
+@media  screen and (max-width:530px) {
+  .contact--container h1{
+    font-size: 35px;
+  }
+  .contact--container form{
+    gap: 15px;
+  }
+  
+  form input{
+    width: 350px;
+    height: 40px;
+    font-size: 11px;
+  }
+  
+  form textarea{
+    width: 350px;
+    height: 90px;
+    font-size: 11px;
+  }
+  .button {
+    font-size: 10px;
+    padding: 6px 20px;
+  }
+ 
+}
+
+@media  screen and (max-width:430px) {
+  .contact--container{
+    justify-content: center;
+    gap: 50px;
+  }
+  .contact--container h1{
+    font-size: 30px;
+  }
+
+  .contact--container form{
+    gap: 10px;
+  }
+  
+  form input{
+    width: 250px;
+    height: 30px;
+    font-size: 10px;
+  }
+  
+  form textarea{
+    width: 250px;
+    height: 75px;
+    font-size: 10px;
+  }
+  .button {
+    font-size: 8px;
+    padding: 5px 19px;
+  }
+ 
+}
+

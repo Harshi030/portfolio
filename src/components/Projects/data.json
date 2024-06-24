@@ -1,0 +1,33 @@
+[
+  {"title":"Company Member Team Page",
+  "imageSrc":"https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15041.jpg?size=626&ext=jpg&ga=GA1.1.751744057.1710582187&semt=ais_user",
+  "description":"This project is about a responsive webpage for a company's team members.",
+"skills":["HTML","CSS"],
+"source":"https://github.com/Harshi030/web-dev-task1"},
+
+{"title":"Landing Page for Car",
+  "imageSrc":"https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1060&t=st=1719053296~exp=1719053896~hmac=ff3f4579664ed18d1a358bf62dbed17d99de7491de5de246acb7ba4da7f21fca",
+  "description":"This project is about landing page of Thar New Earth edition car.",
+"skills":["HTML","CSS"],
+"source":"https://github.com/Harshi030/web-dev-task2"},
+
+{"title":"Company Award Project",
+  "imageSrc":"https://img.freepik.com/free-vector/new-app-development-desktop_23-2148684987.jpg?size=626&ext=jpg&ga=GA1.1.751744057.1710582187&semt=ais_user",
+  "description":"The project is a React web application for C.R.I. Pumps' 2018 energy conservation award.",
+"skills":["HTML","CSS","JavaScript","ReactJS"],
+"source":"https://github.com/Harshi030/C.R.I-Award"},
+
+{"title":"CRUD operation",
+  "imageSrc":"https://img.freepik.com/free-vector/atom-illustration-model-with-electrons-neutron-isolated_1284-53084.jpg?t=st=1719052963~exp=1719056563~hmac=129f941aa0c4f2cb19f2387095f4f152ef3b9891299a8e5da5e9c0e060ff4ac0&w=740",
+  "description":"This project is a website that allows users to add, view, edit, and delete information. It is built using ReactJS.",
+"skills":["HTML","CSS","JavaScript","ReactJS"],
+"source":"https://github.com/Harshi030/CRUD-Operation"},
+
+
+{"title":"Personal Blog Page",
+  "imageSrc":"https://ioflood.com/blog/wp-content/uploads/2023/09/Learning-Django-framework-tutorial-webpage-architecture-diagrams-Python-code.jpg",
+  "description":"Developed a personal blog page using Django, featuring models for blog posts and templates to render the blog pages.",
+"skills":["HTML","CSS","Python","Django"],
+"source":"https://github.com/Harshi030/personal-blog-page-django"}
+
+]

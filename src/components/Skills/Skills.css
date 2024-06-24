@@ -1,0 +1,83 @@
+.skill--container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skill--container h1{
+  font-size: 70px;
+}
+
+.all-skills{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 400px;
+}
+
+.tick-svg{
+  height: 40px;
+}
+
+.frontend ,.framework, .backend{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.frontend section, .framework section, .backend section{
+  display: flex;
+  align-items: center;
+}
+
+.frontend section p, .framework section p, .backend section p{
+  font-size: 35px;
+}
+
+@media screen and (max-width:500px) {
+
+  .skill--container h1{
+    font-size: 50px;
+  }
+  
+  .tick-svg{
+    height: 30px;
+  }
+  
+  .frontend ,.framework, .backend{
+    gap: 25px;
+  }
+
+  
+  .frontend section p, .framework section p, .backend section p{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:410px) {
+  .skill--container{
+    justify-content: center;
+    gap: 25px;
+  }
+  .skill--container h1{
+    font-size: 35px;
+  }
+  
+  .tick-svg{
+    height: 15px;
+  }
+  
+  .frontend ,.framework, .backend{
+    gap: 15px;
+  }
+
+  .frontend section p, .framework section p, .backend section p{
+    font-size: 15px;
+  }
+}
+
+
+
